@@ -10,12 +10,13 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-bottom: 2px solid #ddd;
+    margin-bottom: 50px;
 }
 
 .logo img {
-    width: 80px;
+    width: 8vh;
     height: auto;
     border-radius: 100%;
 }
@@ -46,12 +47,21 @@ nav ul li {
     align-items: center;
     background: linear-gradient(to right, #3a007d, #5707a3);
     color: #fff;
-    padding: 40px 20px;
+    padding: 80px 150px;
+    margin-bottom: 70px;
 }
 
 .product-image img {
-    width: 200px;
+    width: 380px;
     height: auto;
+}
+
+#caneca_highlight {
+    transition: scale 1.45s;
+}
+
+#caneca_highlight:hover {
+    scale: 1.15;
 }
 
 .product-details {
@@ -68,12 +78,17 @@ nav ul li {
 }
 
 .buy-button {
-    background-color: #00ffaa;
+    background-color: #be4dff;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.buy-button:active{
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .product-list {
@@ -87,14 +102,20 @@ nav ul li {
     background-color: #6b07d7;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
 }
 
 .product-card img {
-    width: 150px;
+    width: 200px;
     height: auto;
+    transition: scale 0.45s;
+}
+
+.product-card img:hover {
+    scale: 1.2;
 }
 
 .product-card h2 {
