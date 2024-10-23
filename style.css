@@ -74,10 +74,11 @@ nav ul li {
 }
 
 #caneca_highlight {
-    transition: scale 1s;
+    transition: scale 1s, filter 1s;
 }
 
 #caneca_highlight:hover {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
     scale: 1.15;
 }
 
@@ -130,11 +131,12 @@ nav ul li {
 .product-card img {
     width: 200px;
     height: auto;
-    transition: scale 0.45s;
+    transition: scale 0.45s, filter 0.45s;
 }
 
 .product-card img:hover {
     scale: 1.2;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
 }
 
 .product-card h2 {
