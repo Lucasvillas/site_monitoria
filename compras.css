@@ -61,7 +61,7 @@ nav ul li {
 }
 
 .product_container{
-    background:#c1c1c1;
+    
     display: flex;
     margin: 5vh 20vh;  
 }
@@ -71,6 +71,7 @@ nav ul li {
     
 }
 #text-info{
+    margin-top: 10vh;
     font-style: italic;
     font-size: xx-large;
     font-weight: bolder;
@@ -80,8 +81,8 @@ nav ul li {
     background: linear-gradient(to left, #11c700, #53039d);
     color: #fff;
     padding: 2vh;
-    margin-left: 25%;
-    margin-top: 70%;
+    margin-left: 10%;
+    margin-top: 40%;
     border-radius: 2vh;
     cursor: pointer;
     transition: all 0.2s ease-in-out; /* This is new, makes it smooooooth operatooooor */
@@ -105,7 +106,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
     margin-top: 3%;
-    margin-left: 20%;
+    margin-left: 21vh;
     width: 50vh;
     height: 50vh;
     background: linear-gradient(to left, rgba(49,13,78,1), rgba(0,0,0,1));
